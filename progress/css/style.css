@@ -35,6 +35,13 @@ h1{
     width: 100%;
     height: 39px;
 }
+.space1{
+    width: 100%;
+    height: 39px;
+    background-color: #010f52be;
+    opacity: 0.8;
+
+}
 .upper-cloud{
     position: absolute;
     top:40px;
@@ -53,4 +60,41 @@ mountain{
 }
 .top-bar{
     background-color: #009EFF;
+}
+/* mid-section start here  */
+.mid-section{
+    background-color: #F8F988;
+    width: 100%;
+    height: 1900px;
+    background-image: url("file:///C:/Users/Gaurang Gaur/Desktop/Journey/progress/a.jpg");
+
+}
+.my-pic{
+    width: 200px;
+    position: relative;
+    left:650px;
+    top:350px;
+}
+.introduction-2{
+    /* background-color: red; */
+    position: relative;
+    font-size: xxx-large;
+    font-style: italic;
+    /* right:100px;
+     */
+    /* left:459px; */
+    /* bottom:500px;
+     */
+     /* top:550px; */
+     color: yellow;
+     text-align: center;
+
+     
+}
+.information-1{
+    position: relative;
+    top:569px;
+    font-size: x-large;
+    /* border: transparent 3px; */
+    padding: 40px;
 }
