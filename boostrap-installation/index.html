@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- header section -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-right: 10px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="css/image/abeslogo.png" width="40%" alt=""></a>
+
+            <div class="heading">
+                <b>ABES InfraTech Pvt Limited</b>
+            </div>
+            <div>
+                <div style="display: inline-flex ; margin: 5px 0px; ">
+                    <div class="logo">
+                        Logo 1
+                    </div>
+                    <div class="logo">
+                        Logo 2
+                    </div>
+                    <div class="logo">
+                        Logo 3
+                    </div>
+                </div>
+            </div>
+            <div style="display: inline-flex ; ">
+                <div class="link">
+                    Link 1
+                </div>
+                <div class="link">
+                    Link 2
+                </div>
+                <div class="link">
+                    Link 3
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <button type="button" class="btn btn-success">Registration</button>
+                    <button type="button" class="btn btn-success">Login</button>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="css/image/house2.jpg" class="d-block w-100" alt="..." width="360" height="650">
+            </div>
+            <div class="carousel-item">
+                <img src="css/image/House11.jpeg" class="d-block w-100" alt="..." width="360" height="650">
+            </div>
+            <div class="carousel-item">
+                <img src="css/image/house2.jpg" class="d-block w-100" alt="..." width="360" height="650">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <style>
+        .logo,
+        .link {
+            margin: 0px 5px;
+        }
+    </style>
+    <section>
+        <div class="grid-container">
+            <div class="grid-item"><img src="css/image/3-modified.png" class="image1">
+                <em>Lorem ipsum dolor,</em> sit amet consectetur adipisicing elit. Praesentium vel cum repellat, quos
+                inventore facilis alias in modi consequatur repellendus consectetur optio. Repudiandae qui soluta
+                aspernatur sit nisi. Expedita ipsa sunt officiis culpa mollitia.
+            </div>
+
+            <div class="grid-item"><img src="css/image/istockphoto-511061090-612x612.jpg" class="image2"
+                    width="199"><em>Lorem ipsum dolor,</em>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati iure necessitatibus enim consequatur, ab saepe recusandae voluptate reprehenderit natus
+                laudantium magni cum consequuntur ea. Odio minus distinctio omnis doloribus? Vero.</div>
+            <div class="grid-item grid3"><img src="css/image/3-modified.png" class="image3"><em>Lorem ipsum dolor,</em>Lorem, ipsum
+                dolor sit amet consectetur adipisicing elit. Asperiores, expedita aliquam mollitia deserunt voluptatum
+                eum incidunt hic cumque adipisci, dolorem, sequi quis ad quos similique modi eius nobis cupiditate
+                harum!</div>
+
+        </div>
+        <hr class="grid-item">
+
+        <div class="grid-container gi2">
+            <div class="grid-item">
+                <h2>Python</h2>
+                <em>Lorem ipsum dolor,</em> sit amet consectetur adipisicing elit. Praesentium vel cum repellat, quos
+                inventore facilis alias in modi consequatur repellendus consectetur optio. Repudiandae qui soluta
+                aspernatur sit nisi. Expedita ipsa sunt officiis culpa mollitia.
+            </div>
+
+            <div class="grid-item grid3 gi3">
+                <h2>java</h2>
+                    width="199"><em>Lorem ipsum dolor,</em>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati iure necessitatibus enim consequatur, ab saepe recusandae voluptate reprehenderit natus
+                laudantium magni cum consequuntur ea. Odio minus distinctio omnis doloribus? Vero.</div>
+               
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
