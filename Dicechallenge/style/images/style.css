@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color:rgb(39, 63, 2);
+    /* font-family: 'Chivo Mono', monospace; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Orbitron', sans-serif; */
+font-family: 'Mali', cursive;
+
+
+}
+h1{
+    margin: 0;
+    /* text-align: center; */
+    position: relative;
+    font-style: italic;
+    top:6rem;
+    color: white;
+
+
+}
+.ref{
+    text-align: center;
+    text-decoration: none;
+    font-size: xxx-large;
+    /* display: flex; */
+
+
+
+}
+.dice1{
+    text-align: center;
+    position: relative;
+    right: 20rem;
+    top:3rem;
+    color: white;
+}
+.dice2{
+    text-align: center;
+    position: relative;
+    
+    top:-24.1rem;
+    color: white;
+    left: 16rem;
+}
+footer{
+    color: white;
+    text-align: center;
+    position: relative;
+    /* top:40rem   ; */
+}
