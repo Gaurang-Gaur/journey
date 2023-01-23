@@ -1,0 +1,154 @@
+.ptr{
+    font-family: tahoma;
+    font-weight: bold;
+}
+.big{
+    font-family: Arial;
+    font-weight: bold;
+margin-bottom: 3px;
+}
+.sale{
+font-style: italic;
+color: red;
+margin-top: 0;
+}
+.ver{
+    font-family: verdana;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.pro{
+    font-family: verdana;
+    margin-top:2px;
+    color: gray;
+}
+.prod{
+    font-family: verdana;
+}
+.btn{
+    width: 95px;
+    border: none;
+    height: 35px;
+    border-radius: 6px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+
+}
+.btn:hover{
+    transition: 0.3s;
+    box-shadow: 3px 3px 5px black;
+    opacity: 0.9;
+}
+.btn:active{
+    transition: 0.1s;
+    opacity: 0.5;
+}
+.shop{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+font-size: x-large;
+}
+.see{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.more{
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.new{
+    color: greenyellow;
+    font-weight: bold;
+}
+.mac{
+    font-weight: 600;
+    font-size: larger;
+}
+.super{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.from{
+    font-weight: 500;
+    color: gray;
+}
+.buy{
+    width:60px;
+    height: 30px;
+    background-color: rgb(0, 136, 255);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight:bold;
+}
+.buy:hover{
+    transition: 0.03s;
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow:2px 2px 5px black ;
+
+
+}
+.buy:active{
+    transition: 0.01s;
+    opacity: 0.6;
+}
+.stock{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+    font-size: larger;
+    font-weight: 700;
+}
+.usd{
+    color:gray;
+     font-size: small;
+
+}
+.plus{
+    color: green;
+font-weight: 700;
+}
+.af{
+    color: gray;
+    font-weight: 400;
+
+}
+.neg{
+    color:red;
+    font-weight: 700;
+}
+.free1{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.free2{
+    font-weight: 700;
+    margin-bottom: 7px;
+
+}
+.free3{
+    color:gray;
+    font-weight:500;
+}
+.as{
+    margin-top: 0;
+    font-weight: 500;
+}
+.here{
+font-weight: 500;
+
+}
+.chp{
+    color: rgb(0, 174, 255);
+
+}
