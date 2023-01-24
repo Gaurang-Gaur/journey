@@ -1,0 +1,45 @@
+.name{
+    display: block;
+    border-radius: 3px;
+    border-color: gray;
+    outline: none;
+    border: 0px 0px 0px 0px ;
+    border-top: none;
+    border-left: none;
+    margin: 4px;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.in{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.img{
+    width: 700px;
+    margin-left: 420px;
+    margin-top:0px;
+
+}
+.inpp{
+    margin-left: 580px;
+
+    width: 390px;
+    height: 38px;
+    border-radius: 30px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    display: block;
+    /* outline:none; */
+}
+.inpp:focus{
+    /* outline: dotted; */
+    /* outline-style: dotted; */
+    /* outline-width: 2px; */
+    /* outline-offset: initial; */
+    /* outline-color: gray; */
+    outline: none;
+}
