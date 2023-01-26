@@ -1,0 +1,20 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    /* margin-left: 50px; */
+    display: inline-block;
+    
+}
+body{
+    /* margin-right: 0px; */
+    margin-left: 50px;
+    background-color: gray;
+    /* margin:2px; */
+}
+.white{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}

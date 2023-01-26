@@ -1,0 +1,40 @@
+.image{
+    width: 240px;
+    /* object-fit: cover; */
+    height: 300px;
+}
+.card{
+    width: 240px;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+    /* padding: 10px; */
+    /* border: 2px solid black; */
+    text-align: justify;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    padding: 10px;
+}
+.add{
+    width: 100px;
+    border: none;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+   
+    cursor: pointer;
+}
+.add:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.623);
+    transition: 0.1s;
+    opacity: 0.9;
+}
+.card:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.623);
+    transition: 0.1s;
+    opacity: 0.9;
+}

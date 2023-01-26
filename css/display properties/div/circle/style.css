@@ -1,0 +1,31 @@
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:blue;
+}
+.ask{
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    /* text-align: center; */
+
+}
+.yt{
+    background-color:black;
+    width: 350px;
+   padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.install{
+    margin: 0;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+    
+    
+}
+.des{
+    color: rgba(255, 255, 255, 0.751);
+    
+}
