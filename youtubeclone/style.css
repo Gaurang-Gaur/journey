@@ -1,0 +1,15 @@
+.search{
+    padding-left: 10px;
+    display: block;
+    outline: none;
+}
+.amit{
+    width: 300px;
+    
+}
+.card{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
