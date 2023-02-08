@@ -1,0 +1,108 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+    /* font-weight: 900; */
+    
+    /* overflow-x: hidden; */
+}
+.heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+    
+}
+.icpara{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size:1rem;
+    margin-top: 10px;
+
+}
+#brand{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 0;
+    
+}
+.sec{
+    padding:3% 7%;
+}
+#icd:hover{
+    transition: 0.3ms;
+    color: #f52e4c;
+    cursor: pointer;
+}
+.ichead{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+#icd{
+    font-size: 62px;
+    padding: 3rem;
+    color:#ff4c68;
+}
+#icon1{
+    text-align: center;
+}
+#fluid{
+    padding: 3% 15%;
+    /* padding-left: 0; */
+}
+#fluid1{
+    padding-left: 0;
+}
+.ip{
+    width: 50%;
+    transform: rotate(35deg);
+}
+.download-btn{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+#title{
+    background-color: #ff4c68;
+    
+}
+/* just provide class to body name as example */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+#nav-local{
+
+    background-color: #ff4c68 !important;
+    /* color: white; */
+    padding-bottom: 4.5rem;
+}
+.play{
+    width: 30px;
+    
+}
+.play1{
+    width: 25px;
+    margin-right: 3px;
+    vertical-align: top;
+}
+.nav-item{
+    padding: 0 38px;
+}
+.nav-link{
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 1.2rem;
+
+}
+.nav-link:hover{
+    opacity: 0.6;
+    transition: 0.1ms;
+}
