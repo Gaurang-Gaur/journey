@@ -20,29 +20,30 @@ h1{
 
 
 }
+.heading{
+    margin-bottom: 20px;
+}
 .ref{
     text-align: center;
-    text-decoration: none;
+    
     font-size: xxx-large;
-    /* display: flex; */
+    
 
 
 
 }
-.dice1{
+.result{
     text-align: center;
-    position: relative;
-    right: 20rem;
-    top:3rem;
-    color: white;
+}
+
+.dice1{
+    display: inline-block;
+    margin: 20px;
 }
 .dice2{
-    text-align: center;
-    position: relative;
-    
-    top:-24.1rem;
-    color: white;
-    left: 16rem;
+    margin: 20px;
+
+    display: inline-block;
 }
 footer{
     color: white;
