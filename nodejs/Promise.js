@@ -42,7 +42,7 @@ const gettext=(path)=>{
         });
     })
 }
-gettext("./content/sublime.txt").then((res)=>console.log(res)).catch((err)=>console.log(err));
+// gettext("./content/sublime.txt").then((res)=>console.log(res)).catch((err)=>console.log(err));
 
 
 

@@ -1,5 +1,5 @@
-
-// const {path}=require("path");
+// const { error } = require("console");
+const {path}=require("path");
 const {readFile}=require("fs");
 
 const gettext=(path)=>{
@@ -15,8 +15,6 @@ const gettext=(path)=>{
         });
     });
 };
-// console.log('hellow');
-
 const start=async()=>{
 try
 {
@@ -28,7 +26,7 @@ try
     
 }    
 catch{
-    // console.log(error);
+    // console.log(err);
     
 
 }
