@@ -1,0 +1,17 @@
+div{
+    background-color:blue;
+    width:10rem;
+    height:10rem;
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+    /* font-size:100px; */
+    transition:1s;
+    
+}
+.second{
+    /* display:inline; */
+    width:10rem;
+    transition:1s;
+    height:10rem;
+}
