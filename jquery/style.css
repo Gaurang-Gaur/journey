@@ -1,0 +1,30 @@
+body{background-color:red; }
+.height{
+    font-size:355 px;
+    color:black;
+    box-shadow:4px 4px black;
+    /* curser:pointer;\ */
+    /* pointer:curser;
+    co */
+    cursor:pointer;
+
+    /* font-style:italic; */
+    font-family:cursive;
+
+    /* box: shadow 3px; */
+    /* font-style:cursive; */
+
+    
+}
+.height:hover{
+    background-color:yellow;
+    border-radius: 50%;
+
+
+
+}
+
+.margin-50{
+    margin:50px;
+    
+}
