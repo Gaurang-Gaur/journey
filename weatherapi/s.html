@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <style>
+   
+        .cont{
+            display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+        }
+       
+    </style>
+  
+</head>
+<body>
+    <div class="cont">
+
+         helloworld
+    </div>
+    <script>
+        var d = new Date();
+
+        var weekday = ['Sunday','Mon','Tue','Wed','Thu','Fri','Sat'];
+        var daynew = weekday[d];
+        var hours = d.getHours();
+        var ampm = hours >= 12 ? 'PM' :'AM';
+        var minutes = d.getMinutes();
+        var seconds = d.getSeconds();
+        const cnt=document.getElementsByClassName('cont')[0];
+        console.log(cnt);
+        cnt.innerText=d;
+        console.log(typeof(d));
+        setTimeout(function(){
+            // console.log("ru");
+            cnt.innerText=("Current Time: " +hours+" "+ampm+" "+minutes+":"+seconds);
+
+        },1500);
+        console.log(typeof(Date));
+       
+          
+    </script>
+</body>
