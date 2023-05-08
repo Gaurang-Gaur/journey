@@ -16,6 +16,13 @@ app.get("/", function (req, res) {
 
 
 
+
+});
+
+
+
+
+
     //Note : This part of code accept the post request
 
     app.post("/", function (req, res) {
@@ -77,8 +84,6 @@ app.get("/", function (req, res) {
     
     })
     // console.log("__dirname");
-
-});
 
 
 
