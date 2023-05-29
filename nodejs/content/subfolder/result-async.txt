@@ -1,1 +1,0 @@
-here my result hello world of node js text file. and we are inside the inside subfolder text file. and text file.

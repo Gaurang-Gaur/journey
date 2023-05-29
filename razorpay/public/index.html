@@ -7,21 +7,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Gateway</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>
-        Payment Gateway
-    </h1>
+    <body style="margin:0">
+        <div class="main">
+            <div class="navbar">
+    
+                <div class="menu">
+                    <ul>
+                        <li><a href="http://127.0.0.1:5501/index.html">HOME</a></li>
+                        <li><a href="http://127.0.0.1:5501/aboutus.html">ABOUT</a></li>
+                        <li><a href="http://127.0.0.1:5501/map.html">LOCATION</a></li>
+                        <li><a href="http://127.0.0.1:5500/public/index.html">PAY</a></li>
+                        <li><a href="http://127.0.0.1:3000/">GALLERY</a></li>
+                    </ul>
+                </div>
+    
+            </div> 
+      <div class="container">
+        <h1>Payment Window</h1>
+        <form>
+          <label for="amount">Amount (in Rupees):</label>
+          <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" required>
+          <input type="submit" value="Pay Now" id="rzp-button1">
+        </form>
+      </div>
 
 
-    <button id="rzp-button1">Pay</button>
+    <!-- <button id="rzp-button1">Pay</button> -->
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <script>
         document.getElementById('rzp-button1').onclick = async (e) => {
             e.preventDefault();
 
-            let response = await fetch("http://127.0.0.1:3000/payment", {
+            let response = await fetch("http://127.0.0.1:3001/payment", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

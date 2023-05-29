@@ -2,7 +2,7 @@ const express = require("express")
 const app = express();
 const https = require("https");
 const razorpay=require("razorpay");
-const port = 3000;
+const port = 3001;
 const cors=require("cors");
 
 app.use(express.json());
@@ -49,5 +49,5 @@ app.post("/payment", async (req, res) => {
 
 
 app.listen(port, function () {
-    console.log("server is created and running on port 3000");
+    console.log("server is created and running on port 3001");
 })
